@@ -7,7 +7,7 @@ import Tetrisg from "./games/Tetris";
 import Dice from "./games/Dice";
 import Dicewar from "./games/Dicewar";
 import Scramble from "./games/Scramble";
-import Tictac from "./games/Tictac";
+import Tictac from "./games/Tictac"; import Puzzel from "./games/Puzzel";
 import hide from "./assets/perryt.jpg";
 import snake from "./assets/snaket.jpg";
 import tic from "./assets/tict.jpg";import test from "./assets/testrist.jpg";
@@ -31,6 +31,7 @@ function App() {
         <Route exact path="/Tetris" element={<Tetrisg />} />
         <Route exact path="/DiceWar" element={<Dicewar />} />
         <Route exact path="/SnakeAndLadders" element={<Div />} />
+        <Route exact path="/Puzzel" element={<Puzzel />} />
         
         <Route exact path="/Dice" element={<Dice />} />        <Route exact path="/tictac" element={<Tictac/>} />
         <Route exact path="/SnakeAndLadders" element={<Div />} /> 

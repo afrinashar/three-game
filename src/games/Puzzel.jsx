@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React,{useState} from 'react'
+import "../App.css"
 const Puzzel = () => {
     const generateRandomArray = (size) => {
         let arr = [];
@@ -42,7 +42,7 @@ const Puzzel = () => {
         };
       
         return (
-          <div className="board">
+          <div className="boards">
             {pieces.map((number, index) => (
               <PuzzlePiece key={index} number={number === size * size ? '' : number} onClick={() => handleClick(index)} />
             ))}
