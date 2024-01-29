@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Tictac = () => { const computert = "nonw" ;const handle = (e) => {  
+const TicTac = () => { const computert = "nonw" ;const handle = (e) => {  
   console.log(e.target.name, );
 };
   return (
@@ -21,4 +21,4 @@ const Tictac = () => { const computert = "nonw" ;const handle = (e) => {
   )
 }
 
-export default Tictac
+export default TicTac
